@@ -160,7 +160,7 @@ img {
 /* hero */
 .hero {
     background-color: var(--hero-bgc);
-    background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/heropic.jpg);
+    background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url("../images/heropic.jpg");
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;

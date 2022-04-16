@@ -60,8 +60,8 @@ img {
 }
 
 .header {
-    border: 1px solid var(--header-border-color);
-    max-width: 1600px;
+    border-bottom: 1px solid var(--header-border-color);
+    
     margin-left: auto;
     margin-right: auto;
 }
@@ -101,7 +101,7 @@ img {
     color: var(--sec-color);
     text-decoration: none;
     font-weight: 500;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 
 }
@@ -627,7 +627,10 @@ margin-right: 10px;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
 }
-.card:hover{
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-
+.card-link:hover,
+.card-link:focus {
+    display: block;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
 }

@@ -179,8 +179,9 @@ img {
     text-transform: uppercase;
     max-width: 696px;
     margin-bottom: 30px;
-    /* margin-left: auto;
-    margin-right: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 
 
 }
